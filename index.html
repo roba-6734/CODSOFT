@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Guji Coffee Harvest</title>
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <header>
+        <nav class="navbar navbar-expand-lg navbar-dark">
+            <a class="navbar-brand" href="#" style="font-family: serif;">Guji Coffee Harvest</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
+                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item"><a class="nav-link" href="#home">Home</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#about">About</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#plans">Subscription Plans</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#testimonials">Testimonials</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#contact">Contact</a></li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+
+    <section id="home" class="hero-section">
+        <h1>Experience the Richness of Ethiopian Coffee Delivered to Your Doorstep</h1>
+        <p>Quality and Freshness in Every Cup</p>
+        <a href="#plans" class="btn">Subscribe Now</a>
+    </section>
+
+    <section id="about" class="about-section">
+        <div class="container">
+            <h2>About Our Service</h2>
+            <p>Discover the story behind our premium Ethiopian coffee and our dedication to quality.</p>
+            <div class="row">
+                <div class="col-md-6">
+                    <img src="images/coffee_farm.jpeg" alt="Coffee Farm">
+                </div>
+                <div class="col-md-6">
+                    <img src="images/coffee_roasting.webp" alt="Coffee Roasting">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="pricing-section" id="plans">
+        <div class="container">
+            <h2>Pricing</h2>
+            <p>Choose the best subscription plan for you and enjoy discounts on long-term subscriptions.</p>
+            <div class="card-deck mb-3 text-center">
+                <div class="card mb-4 shadow-sm">
+                    <div class="card-header">
+                        <h4 class="my-0 font-weight-normal">Monthly</h4>
+                    </div>
+                    <div class="card-body">
+                        <h1 class="card-title pricing-card-title">$19.99 <small class="text-muted">/ month</small></h1>
+                        <ul class="list-unstyled mt-3 mb-4">
+                            <li>15 lb of premium coffee</li>
+                            <li>Freshly roasted</li>
+                            <li>Free shipping</li>
+                        </ul>
+                        <button type="button" class="btn btn-lg btn-block btn-outline-primary">Sign up for monthly</button>
+                    </div>
+                </div>
+                <div class="card mb-4 shadow-sm">
+                    <div class="card-header">
+                        <h4 class="my-0 font-weight-normal">Quarterly</h4>
+                    </div>
+                    <div class="card-body">
+                        <h1 class="card-title pricing-card-title">$54.99 <small class="text-muted">/ quarter</small></h1>
+                        <ul class="list-unstyled mt-3 mb-4">
+                            <li>45 lbs of premium coffee</li>
+                            <li>Freshly roasted</li>
+                            <li>Free shipping</li>
+                            <li><p style="color: rgb(180, 255, 29);">save 7%</p></li>
+                        </ul>
+                        <button type="button" class="btn btn-lg btn-block btn-primary">Sign up for quarterly</button>
+                    </div>
+                </div>
+                <div class="card mb-4 shadow-sm">
+                    <div class="card-header">
+                        <h4 class="my-0 font-weight-normal">Yearly</h4>
+                    </div>
+                    <div class="card-body">
+                        <h1 class="card-title pricing-card-title">$199.99 <small class="text-muted">/ year</small></h1>
+                        <ul class="list-unstyled mt-3 mb-4">
+                            <li> 180 lbs of premium coffee</li>
+                            <li>Freshly roasted</li>
+                            <li>Free shipping</li>
+                            <li><p style="color: rgb(180, 255, 29);">save 16%</p></li>
+                        </ul>
+                        <button type="button" class="btn btn-lg btn-block btn-outline-primary">Sign up for yearly</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="testimonials" class="testimonials-section">
+        <div class="container">
+            <h2>What Our Customers Say</h2>
+            <blockquote>
+                <p>"The best coffee I've ever tasted! Fresh and full of flavor." - Jane Doe</p>
+            </blockquote>
+            <blockquote>
+                <p>"Excellent service and amazing coffee. Highly recommend!" - John Smith</p>
+            </blockquote>
+        </div>
+    </section>
+
+    <section id="contact" class="contact-section">
+        <div class="container">
+            <h2>Contact Us</h2>
+            <form>
+                <div class="form-group">
+                    <input type="text" class="form-control" placeholder="Name" required>
+                </div>
+                <div class="form-group">
+                    <input type="email" class="form-control" placeholder="Email" required>
+                </div>
+                <div class="form-group">
+                    <input type="text" class="form-control" placeholder="Subject" required>
+                </div>
+                <div class="form-group">
+                    <textarea class="form-control" rows="5" placeholder="Message" required></textarea>
+                </div>
+                <button type="submit" class="btn btn-primary">Send Message</button>
+            </form>
+            <p>Email: info@gujicoffeeharvest.com | <br />  Phone: +251-986-2630</p>
+            <p>Wadera, Oromia, Ethiopia</p>
+        </div>
+    </section>
+
+    <footer class="footer">
+        <div class="container">
+            <p>&copy; 2024 Guji Coffee Harvest. All rights reserved.</p>
+            <div>
+                <a href="#">Facebook</a> | <a href="#">Twitter</a> | <a href="#">Instagram</a>
+            </div>
+        </div>
+    </footer>
+
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+
+</html>
